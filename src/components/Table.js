@@ -1,13 +1,16 @@
 import React from "react";
+import Columns from "./Columns";
 
 function Table() {
   //decontrust the prop
   return (
-    <React.Fragment>
-      <h2>
-        I am {person.name}. I am {person.age} years old. I know {person.skill}
-      </h2>
-    </React.Fragment>
+    <table>
+      <tbody>
+        <tr>
+          <Columns />
+        </tr>
+      </tbody>
+    </table>
   );
 }
 
