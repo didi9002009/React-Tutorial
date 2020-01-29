@@ -10,8 +10,12 @@ import "./styles.css";
 // import FocusInput from "./components/FocusInput";
 // import FRParentInput from "./components/FRParentInput";
 // import Portal from "./components/Portal";
-import Hero from "./components/Hero";
-import ErrorBoundary from "./components/ErrorBoundary";
+// import Hero from "./components/Hero";
+// import ErrorBoundary from "./components/ErrorBoundary";
+// import ClickCounter from "./components/ClickCounter";
+// import HoverCounter from "./components/HoverCounter";
+import ClickCounter2 from "./components/ClickCounter2";
+import HoverCounter2 from "./components/HoverCounter2";
 
 class App extends Component {
   // eslint-disable-next-line no-use-before-define" before the render line in App.js
@@ -28,15 +32,20 @@ class App extends Component {
         {/* <FocusInput /> */}
         {/* <FRParentInput /> */}
         {/* <Portal /> */}
-        <ErrorBoundary>
+        {/* <ErrorBoundary>
           <Hero heroName="Batman" />
-        </ErrorBoundary>
-        <ErrorBoundary>
+          </ErrorBoundary>
+          <ErrorBoundary>
           <Hero heroName="Superman" />
-        </ErrorBoundary>
-        <ErrorBoundary>
+          </ErrorBoundary>
+          <ErrorBoundary>
           <Hero heroName="Joker" />
-        </ErrorBoundary>
+        </ErrorBoundary> */}
+        {/* <ClickCounter name="Dan" /> */}
+        {/* <HoverCounter name="Dan" /> */}
+        <ClickCounter2 name="Dan" />
+        <HoverCounter2 name="Dan" />
+        <User render={(isLoggedIn)=>isLoggedIn ? 'Dan' : 'Guest'}
       </div>
     );
   }

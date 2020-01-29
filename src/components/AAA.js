@@ -1,23 +1,23 @@
 import React from "react";
 
-function      () {
+function (){
   return (
     <div>
     </div> 
   );
 }
-export default  ;
+export default ;
 
 
 import React, { Component } from "react";
 
-class  extends Component {
-constructor () {
-  super();
-  this.state = {
+class extends Component {
+// constructor () {
+//   super();
+//   this.state = {
     
-  };
-}
+//   };
+// }
   render() {
     return (
       <div>
@@ -25,4 +25,4 @@ constructor () {
     );
   }
 }
-export default    ;
+export default ;
