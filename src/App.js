@@ -5,7 +5,8 @@ import "./styles.css";
 // import FragmentDemo from "./components/FragmentDemo";
 // import Table from "./components/Table";
 // import PureComp from "./components/PureComp";
-import ParentComp from "./components/ParentComp";
+// import ParentComp from "./components/ParentComp";
+import Refs from "./components/Refs";
 
 class App extends Component {
   // eslint-disable-next-line no-use-before-define" before the render line in App.js
@@ -17,7 +18,8 @@ class App extends Component {
         {/* <FragmentDemo /> */}
         {/* <Table /> */}
         {/* <PureComp /> */}
-        <ParentComp />
+        {/* <ParentComp /> */}
+        <Refs />
       </div>
     );
   }
