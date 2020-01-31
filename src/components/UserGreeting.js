@@ -30,4 +30,4 @@ class UserGreeting extends Component {
   // }
 }
 
-export default UserGreeting
+export default UserGreeting;

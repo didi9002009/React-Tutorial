@@ -7,36 +7,15 @@ class Counter extends Component {
       count: 0
     };
   }
-  increment() {
-    // this.setState(
-    //   {
-    //     count: this.state.count + 1
-    //   },
-    //   () => {
-    //     console.log("Callback value", this.state.count);
-    //   } //  callback fn console.log as 2nd parameter
-    // );
-    // this.state.count = this.state.count + 1;  // do not modify the state directly
-    //  console.log(this.state.count);  // syncrynous callback fn
-    this.setState((prevState, props) => ({
-      count: prevState.count + 1 // 1 replaced w 'props.addValue'
-    }));
-    console.log(this.state.count);
-  }
-  incrementFive() {
-    this.increment();
-    this.increment();
-    this.increment();
-    this.increment();
-    this.increment();
-  }
+  incrementCount = () => {
+    this.setState(prevState => {
+      return { count: prevState.count + 1 };
+    });
+  };
 
   render() {
     return (
-      <div>
-        <div>Count - {this.state.count}</div>
-        <button onClick={() => this.incrementFive()}>Increment</button>
-      </div>
+      <div>{this.props.children(this.state.count, this.incrementCount)}</div>
     );
   }
 }

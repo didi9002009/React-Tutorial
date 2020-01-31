@@ -14,14 +14,29 @@ import "./styles.css";
 // import ErrorBoundary from "./components/ErrorBoundary";
 // import ClickCounter from "./components/ClickCounter";
 // import HoverCounter from "./components/HoverCounter";
-import ClickCounter2 from "./components/ClickCounter2";
-import HoverCounter2 from "./components/HoverCounter2";
+// import User from "./components/User";
+// import ClickCounter2 from "./components/ClickCounter2";
+// import Counter from "./components/Counter";
+// import CompoC from "./components/CompoC";
+// import { UserProvider } from "./components/userContext";
+// import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
 
 class App extends Component {
   // eslint-disable-next-line no-use-before-define" before the render line in App.js
   render() {
     return (
       <div className="App">
+        <PostForm />
+        {/* <PostList /> */}
+        {/* <UserProvider value='Dan'>
+        <CompoC />
+        </UserProvider> */}
+        {/* <Counter>
+        {(count, incrementCount)=> (
+        <ClickCounter2 count={count} incrementCount={incrementCount} />
+        )}
+        </Counter> */}
         {/* <Form /> */}
         {/* <LifecycleA /> */}
         {/* <FragmentDemo /> */}
@@ -43,9 +58,9 @@ class App extends Component {
         </ErrorBoundary> */}
         {/* <ClickCounter name="Dan" /> */}
         {/* <HoverCounter name="Dan" /> */}
-        <ClickCounter2 name="Dan" />
+        {/* <ClickCounter2 name="Dan" />
         <HoverCounter2 name="Dan" />
-        <User render={(isLoggedIn)=>isLoggedIn ? 'Dan' : 'Guest'}
+        <User render={(isLoggedIn)=>isLoggedIn ? 'Dan' : 'Guest'} */}
       </div>
     );
   }
