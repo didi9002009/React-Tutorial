@@ -1,68 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 import "./styles.css";
-// import Form from "./components/Form";
-// import LifecycleA from "./components/LifecycleA";
-// import FragmentDemo from "./components/FragmentDemo";
-// import Table from "./components/Table";
-// import PureComp from "./components/PureComp";
-// import ParentComp from "./components/ParentComp";
-// import Refs from "./components/Refs";
-// import FocusInput from "./components/FocusInput";
-// import FRParentInput from "./components/FRParentInput";
-// import Portal from "./components/Portal";
-// import Hero from "./components/Hero";
-// import ErrorBoundary from "./components/ErrorBoundary";
-// import ClickCounter from "./components/ClickCounter";
-// import HoverCounter from "./components/HoverCounter";
-// import User from "./components/User";
-// import ClickCounter2 from "./components/ClickCounter2";
-// import Counter from "./components/Counter";
-// import CompoC from "./components/CompoC";
-// import { UserProvider } from "./components/userContext";
-// import PostList from "./components/PostList";
-import PostForm from "./components/PostForm";
+// import ClassCounter from "./componentsH/ClassCounter";
+// import HookCounter from "./componentsH/HookCounter";
+// import HookCounter2 from "./componentsH/HookCounter2";
+// import HookCounter3 from "./componentsH/HookCounter3";
+// import HookCounter4 from "./componentsH/HookCounter4";
+// import HookCounterOne from "./componentsH/HookCounterOne";
+import HookMouse from "./componentsH/HookMouse";
 
-class App extends Component {
-  // eslint-disable-next-line no-use-before-define" before the render line in App.js
-  render() {
-    return (
-      <div className="App">
-        <PostForm />
-        {/* <PostList /> */}
-        {/* <UserProvider value='Dan'>
-        <CompoC />
-        </UserProvider> */}
-        {/* <Counter>
-        {(count, incrementCount)=> (
-        <ClickCounter2 count={count} incrementCount={incrementCount} />
-        )}
-        </Counter> */}
-        {/* <Form /> */}
-        {/* <LifecycleA /> */}
-        {/* <FragmentDemo /> */}
-        {/* <Table /> */}
-        {/* <PureComp /> */}
-        {/* <ParentComp /> */}
-        {/* <Refs /> */}
-        {/* <FocusInput /> */}
-        {/* <FRParentInput /> */}
-        {/* <Portal /> */}
-        {/* <ErrorBoundary>
-          <Hero heroName="Batman" />
-          </ErrorBoundary>
-          <ErrorBoundary>
-          <Hero heroName="Superman" />
-          </ErrorBoundary>
-          <ErrorBoundary>
-          <Hero heroName="Joker" />
-        </ErrorBoundary> */}
-        {/* <ClickCounter name="Dan" /> */}
-        {/* <HoverCounter name="Dan" /> */}
-        {/* <ClickCounter2 name="Dan" />
-        <HoverCounter2 name="Dan" />
-        <User render={(isLoggedIn)=>isLoggedIn ? 'Dan' : 'Guest'} */}
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      {/* <ClassCounter /> */}
+      {/* <HookCounter /> */}
+      {/* <HookCounter2 /> */}
+      {/* <HookCounter3 /> */}
+      {/* <HookCounter4 /> */}
+      {/* <HookCounterOne /> */}
+      <HookMouse />
+    </div>
+  );
 }
 export default App;
