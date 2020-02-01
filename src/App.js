@@ -6,7 +6,9 @@ import "./styles.css";
 // import HookCounter3 from "./componentsH/HookCounter3";
 // import HookCounter4 from "./componentsH/HookCounter4";
 // import HookCounterOne from "./componentsH/HookCounterOne";
-import HookMouse from "./componentsH/HookMouse";
+// import HookMouse from "./componentsH/HookMouse";
+// import MouseContainer from "./componentsH/MouseContainer";
+import IntervalHookCounter from "./componentsH/IntervalHookCounter";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <HookCounter3 /> */}
       {/* <HookCounter4 /> */}
       {/* <HookCounterOne /> */}
-      <HookMouse />
+      {/* <HookMouse /> */}
+      {/* <MouseContainer /> */}
+      <IntervalHookCounter />
     </div>
   );
 }
