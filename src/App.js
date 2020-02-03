@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./styles.css";
 // import ClassCounter from "./componentsH/ClassCounter";
 // import HookCounter from "./componentsH/HookCounter";
@@ -8,7 +8,14 @@ import "./styles.css";
 // import HookCounterOne from "./componentsH/HookCounterOne";
 // import HookMouse from "./componentsH/HookMouse";
 // import MouseContainer from "./componentsH/MouseContainer";
-import IntervalHookCounter from "./componentsH/IntervalHookCounter";
+// import IntervalHookCounter from "./componentsH/IntervalHookCounter";
+// import DataFetching from "./componentsH/DataFetching";
+// import ComponentC from "./componentsH/ComponentC";
+// import Counter1 from "./componentsH/Counter1";
+import Counter2 from "./componentsH/Counter2";
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
   return (
@@ -21,7 +28,14 @@ function App() {
       {/* <HookCounterOne /> */}
       {/* <HookMouse /> */}
       {/* <MouseContainer /> */}
-      <IntervalHookCounter />
+      {/* <IntervalHookCounter /> */}
+      {/* <DataFetching /> */}
+      {/* <UserContext.Provider value={"Dan"}>
+        <ChannelContext.Provider value={"Danology"}>
+          <ComponentC />
+        </ChannelContext.Provider>
+      </UserContext.Provider> */}
+      <Counter2 />
     </div>
   );
 }
