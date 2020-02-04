@@ -7,8 +7,9 @@ import "./styles.css";
 // import HookTimer from "./componentsH/HookTimer";
 // import DocTitleOne from "./componentsH/DocTitleOne";
 // import DocTitleTwo from "./componentsH/DocTitleTwo";
-import counterOne from "./componentsH/CounterOne";
-import counterTwo from "./componentsH/CounterTwo";
+// import CounterOne from "./componentsH/CounterOne";
+// import CounterTwo from "./componentsH/CounterTwo";
+import UserForm from "./componentsH/UserForm";
 // import DataFetchingOne from "./componentsH/DataFetchingOne";
 // import DataFetchingTwo from "./componentsH/DataFetchingTwo";
 // import ClassCounter from "./componentsH/ClassCounter";
@@ -84,8 +85,9 @@ function App() {
       <HookTimer /> */}
       {/* <DocTitleOne />
       <DocTitleTwo /> */}
-      <counterOne /> */}
-      <counterTwo /> */}
+      {/* <CounterOne />
+      <CounterTwo /> */}
+      <UserForm />
     </div>
     // </CountContext.Provider>
   );
