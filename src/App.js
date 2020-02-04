@@ -1,6 +1,11 @@
-import React, { useReducer } from "react";
+import React from "react";
 import "./styles.css";
-import DataFetchingOne from "./componentsH/DataFetchingOne";
+// import ParentComponent from "./componentsH/ParentComponent";
+// import Counter from "./componentsH/Counter";
+// import FocusInput from "./componentsH/FocusInput";
+import ClassTimer from "./components/ClassTimer";
+import HookTimer from "./componentsH/HookTimer";
+// import DataFetchingOne from "./componentsH/DataFetchingOne";
 // import DataFetchingTwo from "./componentsH/DataFetchingTwo";
 // import ClassCounter from "./componentsH/ClassCounter";
 // import HookCounter from "./componentsH/HookCounter";
@@ -39,11 +44,11 @@ import DataFetchingOne from "./componentsH/DataFetchingOne";
 // };
 
 function App() {
-  // const [count, dispatch] = useReducer(reducer, initialState);
+  // const [count, dispatch] = useReducer(reducer, initialState);   // add "import {useReducer}" on the top
   return (
-    //   <CountContext.Provider
-    //     value={{ countState: count, countDispatch: dispatch }}
-    //   >
+    // <CountContext.Provider
+    //   value={{ countState: count, countDispatch: dispatch }}
+    // >
     <div className="App">
       {/* <ClassCounter /> */}
       {/* <HookCounter /> */}
@@ -66,8 +71,13 @@ function App() {
         <CompoHA />
         <CompoHB />
         <CompoHC /> */}
-      <DataFetchingOne />
+      {/* <DataFetchingOne /> */}
       {/* <DataFetchingTwo /> */}
+      {/* <ParentComponent /> */}
+      {/* <Counter /> */}
+      {/* <FocusInput /> */}
+      <ClassTimer />
+      <HookTimer />
     </div>
     // </CountContext.Provider>
   );
