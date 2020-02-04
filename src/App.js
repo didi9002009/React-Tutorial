@@ -5,8 +5,10 @@ import "./styles.css";
 // import FocusInput from "./componentsH/FocusInput";
 // import ClassTimer from "./components/ClassTimer";
 // import HookTimer from "./componentsH/HookTimer";
-import DocTitleOne from "./componentsH/DocTitleOne";
-import DocTitleTwo from "./componentsH/DocTitleTwo";
+// import DocTitleOne from "./componentsH/DocTitleOne";
+// import DocTitleTwo from "./componentsH/DocTitleTwo";
+import counterOne from "./componentsH/CounterOne";
+import counterTwo from "./componentsH/CounterTwo";
 // import DataFetchingOne from "./componentsH/DataFetchingOne";
 // import DataFetchingTwo from "./componentsH/DataFetchingTwo";
 // import ClassCounter from "./componentsH/ClassCounter";
@@ -80,8 +82,10 @@ function App() {
       {/* <FocusInput /> */}
       {/* <ClassTimer />
       <HookTimer /> */}
-      <DocTitleOne />
-      <DocTitleTwo />
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
+      <counterOne /> */}
+      <counterTwo /> */}
     </div>
     // </CountContext.Provider>
   );
